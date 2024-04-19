@@ -7,7 +7,7 @@ class HYRequest {
       baseURL,
       timeout,
     });
-
+    //请求拦截器
     this.instance.interceptors.response.use(
       (res) => {
         return res.data;

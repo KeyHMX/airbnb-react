@@ -8,6 +8,7 @@ const HeaderRight = memo(() => {
   const [showPanel, setShowPanel] = useState(false);
 
   useEffect(() => {
+    //监听windows点击 因此加一次即可
     function windowClick() {
       setShowPanel(false);
     }

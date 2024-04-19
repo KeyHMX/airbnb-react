@@ -2,7 +2,8 @@ import PropTypes from "prop-types";
 import React, { memo } from "react";
 import { IndicatorWrapper } from "./style";
 import { useEffect } from "react";
-import { useRef } from "react";
+import { useRef } from "react";//创建ref对象，通过ref.current快速访问dom对象
+
 
 const Indicator = memo((props) => {
   const { selectIndex = 0 } = props;

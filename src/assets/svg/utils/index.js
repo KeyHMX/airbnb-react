@@ -1,4 +1,5 @@
 function styleStrToObject(styleStr) {
+  //由于jsx 的style里只能是对象形式的，故为了便利，写了这个函数
   const obj = {};
   const s = styleStr
     .toLowerCase()
